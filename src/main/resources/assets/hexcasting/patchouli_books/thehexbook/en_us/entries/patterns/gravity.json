@@ -1,0 +1,28 @@
+{
+  "name": "hexxygravity.entry.patterns.gravity",
+  "icon": "minecraft:lodestone",
+  "category": "hexcasting:patterns",
+  "advancement": "hexcasting:root",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "hexxygravity.page.gravity_desc"
+    },
+    {
+      "type": "hexcasting:pattern",
+      "op_id": "hexxygravity:change_gravity",
+      "anchor": "hexxygravity:change_gravity",
+      "input": "entity, vector",
+      "output": "",
+      "text": "hexxygravity.page.gravity.change_gravity"
+    },
+    {
+      "type": "hexcasting:pattern",
+      "op_id": "hexxygravity:get_gravity",
+      "anchor": "hexxygravity:get_gravity",
+      "input": "entity",
+      "output": "vector",
+      "text": "hexxygravity.page.gravity.get_gravity"
+    }
+  ]
+}

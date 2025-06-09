@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "hexxygravity",
+	"version": "${version}",
+	"name": "Hexxy Gravity",
+	"description": "Adds spells to interact with the Gravity Changer mod",
+	"authors": [
+		"GitCat3"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/hexpats",
+		"sources": "https://github.com/TallestTheTall/hexpats-1.20.1"
+	},
+	"license": "MIT",
+	"icon": "assets/hexxygravity/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"me.gitcat3.hexxygravity.HexxyGravity"
+		],
+		"client": [
+			"me.gitcat3.hexxygravity.HexxyGravityClient"
+		],
+		"fabric-datagen": [
+			"me.gitcat3.hexxygravity.HexxyGravityDataGenerator"
+		]
+	},
+	"mixins": [
+		"hexxygravity.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*",
+		"gravity_changer_q": ">=1.1.2-mc1.20.1",
+		"hexcasting": ">=0.11.2-pre-702"
+	}
+}

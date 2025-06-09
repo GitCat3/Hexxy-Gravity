@@ -1,0 +1,10 @@
+{
+  "hexxygravity.entry.patterns.gravity": "Gravity Patterns",
+
+  "hexxygravity.page.gravity_desc": "I believe I have found a pattern relating to the manipulation of the oldest and previously most immutable force in the universe: gravity",
+  "hexxygravity.page.gravity.change_gravity": "This pattern changes the gravity of any entity. It takes the entity to manipulate and the direction to send them as a unit vector with ONE value that is either -1 or 1. Costs one Charged Amethyst.",
+  "hexcasting.action.hexxygravity:change_gravity": "Manipulate Gravity",
+  "hexcasting.mishap.invalid_value.axis_vector": "single value unit vector",
+  "hexcasting.action.hexxygravity:get_gravity": "Gravity Purification",
+  "hexxygravity.page.gravity.get_gravity": "This pattern transforms an entity on the stack into a unit vector representing its current gravity direction"
+}
